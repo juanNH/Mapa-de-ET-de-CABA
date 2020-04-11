@@ -1,0 +1,37 @@
+TOOL,NOMBRE,LAT,LON
+ET Numero1,Otto Krause, -34.615332, -58.368777
+ET Numero2,Osvaldo Magnasco, -34.584715, -58.416130
+ET Numero3,Thompson,-34.574814, -58.436348
+ET Numero4,Republica del Libano, -34.630102, -58.377326
+ET Numero5,Maria De Los Remedios De San Martin, -34.628927, -58.454739
+ET Numero6,Fernando Fader, -34.629483, -58.467841
+ET Numero7,Dolores Lavalle de Lavalle, -34.639450, -58.403173
+ET Numero8,Paula Albarracin de Sarmiento, -34.639921, -58.483923
+ET Numero9,Ing.Luis Huergo, -34.608634, -58.446665
+ET Numero10,Fray Luis Beltran, -34.643442, -58.379251
+ET Numero11,Manuel Belgrano, -34.625698, -58.404849 
+ET Numero12,Libertador Gral.Jose de San Martin , -34.591857, -58.377180
+ET Numero14,Libertad, -34.647632, -58.381165
+ET Numero15,Maipu, -34.634078, -58.374915
+ET Numero16,Espana, -34.599580, -58.502451
+ET Numero17,Reg. V Brig. Gral. don Cornelio de Saavedra, -34.640083, -58.481701 
+ET Numero18,Jose Antonio Alvarez de Condarco, -34.630332, -58.455105
+ET Numero19,Alejandro Volta, -34.602945, -58.390881
+ET Numero21,Fragata Libertad, -34.556178, -58.478288
+ET Numero23,Casal Calvino, -34.640732, -58.480685
+ET Numero24,Pte Roberto M. Ortiz, -34.610404, -58.500958
+ET Numero25,Tte. 1 de Artilleria Fray Luis Beltran, -34.618580, -58.403388
+ET Numero26,Confederacion Suiza, -34.612851, -58.405483
+ET Numero27,Hipolito Yrigoyen, -34.621251, -58.517745
+ET Numero28,Republica Francesa, -34.557902, -58.457501
+ET Numero29,Reconquista de Buenos Aires, -34.621697, -58.416420
+ET Numero30,Norberto Pinero, -34.599114, -58.419787
+ET Numero31,Maestro Quinquela, -34.638901, -58.359972
+ET Numero32,Gral. J. de San Martin, -34.583772, -58.454873
+ET Numero33,Fundicion Maestranza del Plumerillo, -34.655927, -58.420907
+ET Numero34,Enrique Martin Hermitte, -34.589211, -58.443529
+ET Numero35,Ing. Eduardo Latzina, -34.620915, -58.516956
+ET Numero36,Computacion, -34.560028, -58.492903
+ET Numero37,Hogar Naval Stella Maris, -34.635157, -58.473331
+
+

@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3151b5c627484c8797a3a98403537784 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3151b5c627484c8797a3a98403537784" ></div>
+        
+</body>
+<script>    
+    
+            var map_3151b5c627484c8797a3a98403537784 = L.map(
+                "map_3151b5c627484c8797a3a98403537784",
+                {
+                    center: [-34.60693, -58.436925],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    titles: "pc",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac1195fbb4d4491fae873a0604c65e4b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+            var marker_a3d0a8d3fc0d4089b81bc6e3e6165032 = L.marker(
+                [-34.615332, -58.368777],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_704c7851a9714ef7b04a8b5e8b38e1cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aca9d8029bfd484eaedb321712b8b098 = $(`<div id="html_aca9d8029bfd484eaedb321712b8b098" style="width: 100.0%; height: 100.0%;">Otto Krause</div>`)[0];
+            popup_704c7851a9714ef7b04a8b5e8b38e1cf.setContent(html_aca9d8029bfd484eaedb321712b8b098);
+        
+
+        marker_a3d0a8d3fc0d4089b81bc6e3e6165032.bindPopup(popup_704c7851a9714ef7b04a8b5e8b38e1cf)
+        ;
+
+        
+    
+    
+            marker_a3d0a8d3fc0d4089b81bc6e3e6165032.bindTooltip(
+                `<div>
+                     ET Numero1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d49d9ab44d64053a3a01747cec1bed3 = L.marker(
+                [-34.584715, -58.41613],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_1f16e7a6cafe4d5ea6155e8491812afc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_761f2a6ea66442ff839a7712454e3228 = $(`<div id="html_761f2a6ea66442ff839a7712454e3228" style="width: 100.0%; height: 100.0%;">Osvaldo Magnasco</div>`)[0];
+            popup_1f16e7a6cafe4d5ea6155e8491812afc.setContent(html_761f2a6ea66442ff839a7712454e3228);
+        
+
+        marker_8d49d9ab44d64053a3a01747cec1bed3.bindPopup(popup_1f16e7a6cafe4d5ea6155e8491812afc)
+        ;
+
+        
+    
+    
+            marker_8d49d9ab44d64053a3a01747cec1bed3.bindTooltip(
+                `<div>
+                     ET Numero2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e330a680e77490381ee2ae4065f52fc = L.marker(
+                [-34.574814, -58.436347999999995],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_39434eaf668543faae0ebf6260e4c23b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dacf79f22e544c8855719b39d32099c = $(`<div id="html_0dacf79f22e544c8855719b39d32099c" style="width: 100.0%; height: 100.0%;">Thompson</div>`)[0];
+            popup_39434eaf668543faae0ebf6260e4c23b.setContent(html_0dacf79f22e544c8855719b39d32099c);
+        
+
+        marker_7e330a680e77490381ee2ae4065f52fc.bindPopup(popup_39434eaf668543faae0ebf6260e4c23b)
+        ;
+
+        
+    
+    
+            marker_7e330a680e77490381ee2ae4065f52fc.bindTooltip(
+                `<div>
+                     ET Numero3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_531f721bb9444bed8894deb75fc5f87e = L.marker(
+                [-34.630102, -58.377326000000004],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_c1c3b8b7abdc45a58cc96cc907389e64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42f43a399b4a4ff8bb68c904398c0cea = $(`<div id="html_42f43a399b4a4ff8bb68c904398c0cea" style="width: 100.0%; height: 100.0%;">Republica del Libano</div>`)[0];
+            popup_c1c3b8b7abdc45a58cc96cc907389e64.setContent(html_42f43a399b4a4ff8bb68c904398c0cea);
+        
+
+        marker_531f721bb9444bed8894deb75fc5f87e.bindPopup(popup_c1c3b8b7abdc45a58cc96cc907389e64)
+        ;
+
+        
+    
+    
+            marker_531f721bb9444bed8894deb75fc5f87e.bindTooltip(
+                `<div>
+                     ET Numero4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27b435a85d9a4d21ac1a86ff51bc2abf = L.marker(
+                [-34.628927000000004, -58.454739000000004],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_55e414b5aade44c5bc8106a61665b3ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ff020d2007741f8a2e4fbf5d518253b = $(`<div id="html_0ff020d2007741f8a2e4fbf5d518253b" style="width: 100.0%; height: 100.0%;">Maria De Los Remedios De San Martin</div>`)[0];
+            popup_55e414b5aade44c5bc8106a61665b3ea.setContent(html_0ff020d2007741f8a2e4fbf5d518253b);
+        
+
+        marker_27b435a85d9a4d21ac1a86ff51bc2abf.bindPopup(popup_55e414b5aade44c5bc8106a61665b3ea)
+        ;
+
+        
+    
+    
+            marker_27b435a85d9a4d21ac1a86ff51bc2abf.bindTooltip(
+                `<div>
+                     ET Numero5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_941fd02b7d154e34a4a602244c55f09f = L.marker(
+                [-34.629483, -58.467841],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_a6c71c9ae65044869f0b91623c77faeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3b653a1b43d42a08b7dcc1635bfc4ab = $(`<div id="html_d3b653a1b43d42a08b7dcc1635bfc4ab" style="width: 100.0%; height: 100.0%;">Fernando Fader</div>`)[0];
+            popup_a6c71c9ae65044869f0b91623c77faeb.setContent(html_d3b653a1b43d42a08b7dcc1635bfc4ab);
+        
+
+        marker_941fd02b7d154e34a4a602244c55f09f.bindPopup(popup_a6c71c9ae65044869f0b91623c77faeb)
+        ;
+
+        
+    
+    
+            marker_941fd02b7d154e34a4a602244c55f09f.bindTooltip(
+                `<div>
+                     ET Numero6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ef4ae5775a748f3899d8a5bb0282a64 = L.marker(
+                [-34.63945, -58.403172999999995],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_a839ac86024e4641b461f78ca19f2381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36f8fc26724e4a8caac23192810e4b18 = $(`<div id="html_36f8fc26724e4a8caac23192810e4b18" style="width: 100.0%; height: 100.0%;">Dolores Lavalle de Lavalle</div>`)[0];
+            popup_a839ac86024e4641b461f78ca19f2381.setContent(html_36f8fc26724e4a8caac23192810e4b18);
+        
+
+        marker_1ef4ae5775a748f3899d8a5bb0282a64.bindPopup(popup_a839ac86024e4641b461f78ca19f2381)
+        ;
+
+        
+    
+    
+            marker_1ef4ae5775a748f3899d8a5bb0282a64.bindTooltip(
+                `<div>
+                     ET Numero7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3696145abed84118a7ff6e872cd4ef68 = L.marker(
+                [-34.639921, -58.483923],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_266b41330a4d4d099f299acc89052f48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60a00f903e9b4101b3df440097a00e73 = $(`<div id="html_60a00f903e9b4101b3df440097a00e73" style="width: 100.0%; height: 100.0%;">Paula Albarracin de Sarmiento</div>`)[0];
+            popup_266b41330a4d4d099f299acc89052f48.setContent(html_60a00f903e9b4101b3df440097a00e73);
+        
+
+        marker_3696145abed84118a7ff6e872cd4ef68.bindPopup(popup_266b41330a4d4d099f299acc89052f48)
+        ;
+
+        
+    
+    
+            marker_3696145abed84118a7ff6e872cd4ef68.bindTooltip(
+                `<div>
+                     ET Numero8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04b9903ce4c84075b12abe9421aa7f41 = L.marker(
+                [-34.608634, -58.446665],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_6ea9fe0dfdac4d05b4b228f37cfa80f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4ae9462a0cc4b54a0f74662ae01b22a = $(`<div id="html_d4ae9462a0cc4b54a0f74662ae01b22a" style="width: 100.0%; height: 100.0%;">Ing.Luis Huergo</div>`)[0];
+            popup_6ea9fe0dfdac4d05b4b228f37cfa80f9.setContent(html_d4ae9462a0cc4b54a0f74662ae01b22a);
+        
+
+        marker_04b9903ce4c84075b12abe9421aa7f41.bindPopup(popup_6ea9fe0dfdac4d05b4b228f37cfa80f9)
+        ;
+
+        
+    
+    
+            marker_04b9903ce4c84075b12abe9421aa7f41.bindTooltip(
+                `<div>
+                     ET Numero9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67ef050e52f24671b9831742fa56db92 = L.marker(
+                [-34.643442, -58.379251000000004],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_7b69d76774ba4b2bb6a12b33672f47cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_023ccba326274f0dbcd88a472b8dd3e4 = $(`<div id="html_023ccba326274f0dbcd88a472b8dd3e4" style="width: 100.0%; height: 100.0%;">Fray Luis Beltran</div>`)[0];
+            popup_7b69d76774ba4b2bb6a12b33672f47cf.setContent(html_023ccba326274f0dbcd88a472b8dd3e4);
+        
+
+        marker_67ef050e52f24671b9831742fa56db92.bindPopup(popup_7b69d76774ba4b2bb6a12b33672f47cf)
+        ;
+
+        
+    
+    
+            marker_67ef050e52f24671b9831742fa56db92.bindTooltip(
+                `<div>
+                     ET Numero10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d62be60ccc845488ce0f20d6bc145be = L.marker(
+                [-34.625698, -58.404849],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_f9b23b8c6efe4a3d95baf639b65e18a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_449627771b974e09993eef2ec295c50c = $(`<div id="html_449627771b974e09993eef2ec295c50c" style="width: 100.0%; height: 100.0%;">Manuel Belgrano</div>`)[0];
+            popup_f9b23b8c6efe4a3d95baf639b65e18a2.setContent(html_449627771b974e09993eef2ec295c50c);
+        
+
+        marker_3d62be60ccc845488ce0f20d6bc145be.bindPopup(popup_f9b23b8c6efe4a3d95baf639b65e18a2)
+        ;
+
+        
+    
+    
+            marker_3d62be60ccc845488ce0f20d6bc145be.bindTooltip(
+                `<div>
+                     ET Numero11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3df92eb2bc8a4599875bbca0a180f35a = L.marker(
+                [-34.591857, -58.37718],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_a3db9c61b79c424387434081a43af1d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3ad53def642427e94c15f95ec28e2c0 = $(`<div id="html_d3ad53def642427e94c15f95ec28e2c0" style="width: 100.0%; height: 100.0%;">Libertador Gral.Jose de San Martin </div>`)[0];
+            popup_a3db9c61b79c424387434081a43af1d5.setContent(html_d3ad53def642427e94c15f95ec28e2c0);
+        
+
+        marker_3df92eb2bc8a4599875bbca0a180f35a.bindPopup(popup_a3db9c61b79c424387434081a43af1d5)
+        ;
+
+        
+    
+    
+            marker_3df92eb2bc8a4599875bbca0a180f35a.bindTooltip(
+                `<div>
+                     ET Numero12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d210cf77e9e48c390fed4afbd79c525 = L.marker(
+                [-34.647632, -58.381165],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_f0b27d6d8eb1430dba6538718026d5b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50242eb4a982481e8c7924302d3b10ca = $(`<div id="html_50242eb4a982481e8c7924302d3b10ca" style="width: 100.0%; height: 100.0%;">Libertad</div>`)[0];
+            popup_f0b27d6d8eb1430dba6538718026d5b8.setContent(html_50242eb4a982481e8c7924302d3b10ca);
+        
+
+        marker_9d210cf77e9e48c390fed4afbd79c525.bindPopup(popup_f0b27d6d8eb1430dba6538718026d5b8)
+        ;
+
+        
+    
+    
+            marker_9d210cf77e9e48c390fed4afbd79c525.bindTooltip(
+                `<div>
+                     ET Numero14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f69bccf4a7394c1787f82c573d46e9cb = L.marker(
+                [-34.634078, -58.374915],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_0aa5ec55f5cc48658deafaab0bc5c69d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92427601385545669a8199412b5e580a = $(`<div id="html_92427601385545669a8199412b5e580a" style="width: 100.0%; height: 100.0%;">Maipu</div>`)[0];
+            popup_0aa5ec55f5cc48658deafaab0bc5c69d.setContent(html_92427601385545669a8199412b5e580a);
+        
+
+        marker_f69bccf4a7394c1787f82c573d46e9cb.bindPopup(popup_0aa5ec55f5cc48658deafaab0bc5c69d)
+        ;
+
+        
+    
+    
+            marker_f69bccf4a7394c1787f82c573d46e9cb.bindTooltip(
+                `<div>
+                     ET Numero15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb33756eb4c745f9ba32e3081ad49f73 = L.marker(
+                [-34.599579999999996, -58.502451],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_2f1ed982818e49ed9e5a2dc8589628cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b695844fbce147b69b23fab985e73a28 = $(`<div id="html_b695844fbce147b69b23fab985e73a28" style="width: 100.0%; height: 100.0%;">Espana</div>`)[0];
+            popup_2f1ed982818e49ed9e5a2dc8589628cb.setContent(html_b695844fbce147b69b23fab985e73a28);
+        
+
+        marker_bb33756eb4c745f9ba32e3081ad49f73.bindPopup(popup_2f1ed982818e49ed9e5a2dc8589628cb)
+        ;
+
+        
+    
+    
+            marker_bb33756eb4c745f9ba32e3081ad49f73.bindTooltip(
+                `<div>
+                     ET Numero16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_661607e84d444874baed2d4110ef74e3 = L.marker(
+                [-34.640083000000004, -58.481701],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_526b95d4ec6241f98399ab8ee77f609b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e4d5509b434ef8a7b092473d958c1c = $(`<div id="html_85e4d5509b434ef8a7b092473d958c1c" style="width: 100.0%; height: 100.0%;">Reg. V Brig. Gral. don Cornelio de Saavedra</div>`)[0];
+            popup_526b95d4ec6241f98399ab8ee77f609b.setContent(html_85e4d5509b434ef8a7b092473d958c1c);
+        
+
+        marker_661607e84d444874baed2d4110ef74e3.bindPopup(popup_526b95d4ec6241f98399ab8ee77f609b)
+        ;
+
+        
+    
+    
+            marker_661607e84d444874baed2d4110ef74e3.bindTooltip(
+                `<div>
+                     ET Numero17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ba94037d9af4f67bf3f3fafdbddbd89 = L.marker(
+                [-34.630332, -58.455105],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_af48a307d8b44c69bdaa644ffa8b5130 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a1880f33a684f148110b00f4892f50a = $(`<div id="html_6a1880f33a684f148110b00f4892f50a" style="width: 100.0%; height: 100.0%;">Jose Antonio Alvarez de Condarco</div>`)[0];
+            popup_af48a307d8b44c69bdaa644ffa8b5130.setContent(html_6a1880f33a684f148110b00f4892f50a);
+        
+
+        marker_1ba94037d9af4f67bf3f3fafdbddbd89.bindPopup(popup_af48a307d8b44c69bdaa644ffa8b5130)
+        ;
+
+        
+    
+    
+            marker_1ba94037d9af4f67bf3f3fafdbddbd89.bindTooltip(
+                `<div>
+                     ET Numero18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_945b579085c84a5abd45d701770e8c18 = L.marker(
+                [-34.602945, -58.39088100000001],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_a26b912d0fc2429bbe9aeab8e4d3ad41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50e9dcf7ae1c4523a54c1d1f3245c3d3 = $(`<div id="html_50e9dcf7ae1c4523a54c1d1f3245c3d3" style="width: 100.0%; height: 100.0%;">Alejandro Volta</div>`)[0];
+            popup_a26b912d0fc2429bbe9aeab8e4d3ad41.setContent(html_50e9dcf7ae1c4523a54c1d1f3245c3d3);
+        
+
+        marker_945b579085c84a5abd45d701770e8c18.bindPopup(popup_a26b912d0fc2429bbe9aeab8e4d3ad41)
+        ;
+
+        
+    
+    
+            marker_945b579085c84a5abd45d701770e8c18.bindTooltip(
+                `<div>
+                     ET Numero19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_005bba499ceb43dc8397f98aff5e3b1b = L.marker(
+                [-34.556178, -58.478288],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_f88bee01855344b3a5719939faee9fc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16db6280c2e447819ce8df8fd6ca74c7 = $(`<div id="html_16db6280c2e447819ce8df8fd6ca74c7" style="width: 100.0%; height: 100.0%;">Fragata Libertad</div>`)[0];
+            popup_f88bee01855344b3a5719939faee9fc6.setContent(html_16db6280c2e447819ce8df8fd6ca74c7);
+        
+
+        marker_005bba499ceb43dc8397f98aff5e3b1b.bindPopup(popup_f88bee01855344b3a5719939faee9fc6)
+        ;
+
+        
+    
+    
+            marker_005bba499ceb43dc8397f98aff5e3b1b.bindTooltip(
+                `<div>
+                     ET Numero21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7854af092206476ca837710fb9657764 = L.marker(
+                [-34.640732, -58.480685],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_2b0f32be3ee14935bd14dacea40238f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30ab908dc7b646a08430bbea3aca4151 = $(`<div id="html_30ab908dc7b646a08430bbea3aca4151" style="width: 100.0%; height: 100.0%;">Casal Calvino</div>`)[0];
+            popup_2b0f32be3ee14935bd14dacea40238f1.setContent(html_30ab908dc7b646a08430bbea3aca4151);
+        
+
+        marker_7854af092206476ca837710fb9657764.bindPopup(popup_2b0f32be3ee14935bd14dacea40238f1)
+        ;
+
+        
+    
+    
+            marker_7854af092206476ca837710fb9657764.bindTooltip(
+                `<div>
+                     ET Numero23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dda6d50b480942e3b1938c1dd8a9bf34 = L.marker(
+                [-34.610403999999996, -58.500958],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_1c555ce4c32e4c53b889f9c88fb6aa04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f24d5a819f4b0c8a942ec9d2829a8f = $(`<div id="html_39f24d5a819f4b0c8a942ec9d2829a8f" style="width: 100.0%; height: 100.0%;">Pte Roberto M. Ortiz</div>`)[0];
+            popup_1c555ce4c32e4c53b889f9c88fb6aa04.setContent(html_39f24d5a819f4b0c8a942ec9d2829a8f);
+        
+
+        marker_dda6d50b480942e3b1938c1dd8a9bf34.bindPopup(popup_1c555ce4c32e4c53b889f9c88fb6aa04)
+        ;
+
+        
+    
+    
+            marker_dda6d50b480942e3b1938c1dd8a9bf34.bindTooltip(
+                `<div>
+                     ET Numero24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eaf31fd15af46508fd082f93a6064e5 = L.marker(
+                [-34.61858, -58.403388],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_7bea0f0c94074559bd0bcc53c90cc4e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5f4978cd399466dbb3d6e4d942bbb70 = $(`<div id="html_a5f4978cd399466dbb3d6e4d942bbb70" style="width: 100.0%; height: 100.0%;">Tte. 1 de Artilleria Fray Luis Beltran</div>`)[0];
+            popup_7bea0f0c94074559bd0bcc53c90cc4e3.setContent(html_a5f4978cd399466dbb3d6e4d942bbb70);
+        
+
+        marker_4eaf31fd15af46508fd082f93a6064e5.bindPopup(popup_7bea0f0c94074559bd0bcc53c90cc4e3)
+        ;
+
+        
+    
+    
+            marker_4eaf31fd15af46508fd082f93a6064e5.bindTooltip(
+                `<div>
+                     ET Numero25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae6e38fd4a0b425ebeff2826741851be = L.marker(
+                [-34.612851, -58.405483],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_6685cd5c2c4e43ebac46c7012319c212 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c51471c527f44d3ba58892b610c55cd = $(`<div id="html_2c51471c527f44d3ba58892b610c55cd" style="width: 100.0%; height: 100.0%;">Confederacion Suiza</div>`)[0];
+            popup_6685cd5c2c4e43ebac46c7012319c212.setContent(html_2c51471c527f44d3ba58892b610c55cd);
+        
+
+        marker_ae6e38fd4a0b425ebeff2826741851be.bindPopup(popup_6685cd5c2c4e43ebac46c7012319c212)
+        ;
+
+        
+    
+    
+            marker_ae6e38fd4a0b425ebeff2826741851be.bindTooltip(
+                `<div>
+                     ET Numero26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e25f8bd6912547488e514ef47679f8ac = L.marker(
+                [-34.621251, -58.517745],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_60fb20f324444e5db27fb3b304285586 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4f82d9de50848ca87a1c8258b8418fc = $(`<div id="html_c4f82d9de50848ca87a1c8258b8418fc" style="width: 100.0%; height: 100.0%;">Hipolito Yrigoyen</div>`)[0];
+            popup_60fb20f324444e5db27fb3b304285586.setContent(html_c4f82d9de50848ca87a1c8258b8418fc);
+        
+
+        marker_e25f8bd6912547488e514ef47679f8ac.bindPopup(popup_60fb20f324444e5db27fb3b304285586)
+        ;
+
+        
+    
+    
+            marker_e25f8bd6912547488e514ef47679f8ac.bindTooltip(
+                `<div>
+                     ET Numero27
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9eeee21933548c7841327a2575ce106 = L.marker(
+                [-34.557902, -58.457501],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_870b5c9876954b43928c9b651af4ccaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6beecf5c798e4d6b8896a1d35e427264 = $(`<div id="html_6beecf5c798e4d6b8896a1d35e427264" style="width: 100.0%; height: 100.0%;">Republica Francesa</div>`)[0];
+            popup_870b5c9876954b43928c9b651af4ccaf.setContent(html_6beecf5c798e4d6b8896a1d35e427264);
+        
+
+        marker_c9eeee21933548c7841327a2575ce106.bindPopup(popup_870b5c9876954b43928c9b651af4ccaf)
+        ;
+
+        
+    
+    
+            marker_c9eeee21933548c7841327a2575ce106.bindTooltip(
+                `<div>
+                     ET Numero28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5871f45add34fe783855b0b872534d9 = L.marker(
+                [-34.621697, -58.416419999999995],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_c8ccd4a204464c8c8cd398cc278715ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_475cc75c58854502b7a9dbe9db1c28f1 = $(`<div id="html_475cc75c58854502b7a9dbe9db1c28f1" style="width: 100.0%; height: 100.0%;">Reconquista de Buenos Aires</div>`)[0];
+            popup_c8ccd4a204464c8c8cd398cc278715ca.setContent(html_475cc75c58854502b7a9dbe9db1c28f1);
+        
+
+        marker_d5871f45add34fe783855b0b872534d9.bindPopup(popup_c8ccd4a204464c8c8cd398cc278715ca)
+        ;
+
+        
+    
+    
+            marker_d5871f45add34fe783855b0b872534d9.bindTooltip(
+                `<div>
+                     ET Numero29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_641bebb03e714778a6ebd0c4d1c7673b = L.marker(
+                [-34.599114, -58.419787],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_3a8f8881b44f4aab878b07c34a42927d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29e15f1aca3a4dfc8f30c84114bc3756 = $(`<div id="html_29e15f1aca3a4dfc8f30c84114bc3756" style="width: 100.0%; height: 100.0%;">Norberto Pinero</div>`)[0];
+            popup_3a8f8881b44f4aab878b07c34a42927d.setContent(html_29e15f1aca3a4dfc8f30c84114bc3756);
+        
+
+        marker_641bebb03e714778a6ebd0c4d1c7673b.bindPopup(popup_3a8f8881b44f4aab878b07c34a42927d)
+        ;
+
+        
+    
+    
+            marker_641bebb03e714778a6ebd0c4d1c7673b.bindTooltip(
+                `<div>
+                     ET Numero30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0848b3202a5442aa8e517f48ff900ffc = L.marker(
+                [-34.638901000000004, -58.359972],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_851f49ac09eb4317980435a8a1a81473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d96c30eb89c4f95a8f24615e4ab41b8 = $(`<div id="html_4d96c30eb89c4f95a8f24615e4ab41b8" style="width: 100.0%; height: 100.0%;">Maestro Quinquela</div>`)[0];
+            popup_851f49ac09eb4317980435a8a1a81473.setContent(html_4d96c30eb89c4f95a8f24615e4ab41b8);
+        
+
+        marker_0848b3202a5442aa8e517f48ff900ffc.bindPopup(popup_851f49ac09eb4317980435a8a1a81473)
+        ;
+
+        
+    
+    
+            marker_0848b3202a5442aa8e517f48ff900ffc.bindTooltip(
+                `<div>
+                     ET Numero31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d9b4599c35d420583bef044f03d083f = L.marker(
+                [-34.583771999999996, -58.454873],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_817b6308673342b681a6ec053046c5fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b410cb4f2c7949bf9e571a3523f46752 = $(`<div id="html_b410cb4f2c7949bf9e571a3523f46752" style="width: 100.0%; height: 100.0%;">Gral. J. de San Martin</div>`)[0];
+            popup_817b6308673342b681a6ec053046c5fa.setContent(html_b410cb4f2c7949bf9e571a3523f46752);
+        
+
+        marker_5d9b4599c35d420583bef044f03d083f.bindPopup(popup_817b6308673342b681a6ec053046c5fa)
+        ;
+
+        
+    
+    
+            marker_5d9b4599c35d420583bef044f03d083f.bindTooltip(
+                `<div>
+                     ET Numero32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4e1e227aa8e4af6b31495cf35ecb6f4 = L.marker(
+                [-34.655927, -58.42090699999999],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_abf2489e16ac4ca39f1c798bcb6ca8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76950f245e56481eb8232aaaed508ee9 = $(`<div id="html_76950f245e56481eb8232aaaed508ee9" style="width: 100.0%; height: 100.0%;">Fundicion Maestranza del Plumerillo</div>`)[0];
+            popup_abf2489e16ac4ca39f1c798bcb6ca8c3.setContent(html_76950f245e56481eb8232aaaed508ee9);
+        
+
+        marker_f4e1e227aa8e4af6b31495cf35ecb6f4.bindPopup(popup_abf2489e16ac4ca39f1c798bcb6ca8c3)
+        ;
+
+        
+    
+    
+            marker_f4e1e227aa8e4af6b31495cf35ecb6f4.bindTooltip(
+                `<div>
+                     ET Numero33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e24ab28c86a641f4b2d28a20aa83e4b4 = L.marker(
+                [-34.589211, -58.443529000000005],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_b9222e3db8574b2f9a2f7b37988202b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18d9da48b63e45e28ee950c103d5f7db = $(`<div id="html_18d9da48b63e45e28ee950c103d5f7db" style="width: 100.0%; height: 100.0%;">Enrique Martin Hermitte</div>`)[0];
+            popup_b9222e3db8574b2f9a2f7b37988202b7.setContent(html_18d9da48b63e45e28ee950c103d5f7db);
+        
+
+        marker_e24ab28c86a641f4b2d28a20aa83e4b4.bindPopup(popup_b9222e3db8574b2f9a2f7b37988202b7)
+        ;
+
+        
+    
+    
+            marker_e24ab28c86a641f4b2d28a20aa83e4b4.bindTooltip(
+                `<div>
+                     ET Numero34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41f2f62639bc45e09c0e729b4e595d4c = L.marker(
+                [-34.620915000000004, -58.51695600000001],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_3f511a6c01174dee9d026967e1653055 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6c79e61938d4fc5a633d3358904dc1c = $(`<div id="html_c6c79e61938d4fc5a633d3358904dc1c" style="width: 100.0%; height: 100.0%;">Ing. Eduardo Latzina</div>`)[0];
+            popup_3f511a6c01174dee9d026967e1653055.setContent(html_c6c79e61938d4fc5a633d3358904dc1c);
+        
+
+        marker_41f2f62639bc45e09c0e729b4e595d4c.bindPopup(popup_3f511a6c01174dee9d026967e1653055)
+        ;
+
+        
+    
+    
+            marker_41f2f62639bc45e09c0e729b4e595d4c.bindTooltip(
+                `<div>
+                     ET Numero35
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e76f7cfd3d843499a186d99c3ee61e1 = L.marker(
+                [-34.560028, -58.492903000000005],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_ac7b7061fbaf404cb597bcb367a2d412 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88703baba617469ca36ad7269860e0c7 = $(`<div id="html_88703baba617469ca36ad7269860e0c7" style="width: 100.0%; height: 100.0%;">Computacion</div>`)[0];
+            popup_ac7b7061fbaf404cb597bcb367a2d412.setContent(html_88703baba617469ca36ad7269860e0c7);
+        
+
+        marker_6e76f7cfd3d843499a186d99c3ee61e1.bindPopup(popup_ac7b7061fbaf404cb597bcb367a2d412)
+        ;
+
+        
+    
+    
+            marker_6e76f7cfd3d843499a186d99c3ee61e1.bindTooltip(
+                `<div>
+                     ET Numero36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a9e02224df74043a7a2d0605652ec0c = L.marker(
+                [-34.635157, -58.47333100000001],
+                {"markerColor": "red"}
+            ).addTo(map_3151b5c627484c8797a3a98403537784);
+        
+    
+        var popup_218236e04cfc407594c1b08d664fca2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acfcdfc2d44d4a2cb75ede3975afc726 = $(`<div id="html_acfcdfc2d44d4a2cb75ede3975afc726" style="width: 100.0%; height: 100.0%;">Hogar Naval Stella Maris</div>`)[0];
+            popup_218236e04cfc407594c1b08d664fca2e.setContent(html_acfcdfc2d44d4a2cb75ede3975afc726);
+        
+
+        marker_6a9e02224df74043a7a2d0605652ec0c.bindPopup(popup_218236e04cfc407594c1b08d664fca2e)
+        ;
+
+        
+    
+    
+            marker_6a9e02224df74043a7a2d0605652ec0c.bindTooltip(
+                `<div>
+                     ET Numero37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
