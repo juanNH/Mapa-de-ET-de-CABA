@@ -1,0 +1,3 @@
+El programa consiste con Python, enviar al mapa generado por Html las distintas ubicaciones geograficas de algunas escuelas tecnicas de la Ciudad de Buenos aires, tambien con una breve descripcion de la misma que se mostrara.
+A- Se ejecuta el programa (Se necesita "pip install folium").
+B- Abre manualmente el archivo Html (app_test2). Este te abrira en tu navegador el mapa del mundo generado en HTML y con los puntos marcados en el blog de notas de escuelas.txt

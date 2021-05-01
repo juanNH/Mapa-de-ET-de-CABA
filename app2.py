@@ -1,4 +1,3 @@
-
 import folium
 import pandas
 df = pandas.read_csv("escuelas.txt")
